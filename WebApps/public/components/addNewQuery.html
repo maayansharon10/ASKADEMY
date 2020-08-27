@@ -1,0 +1,41 @@
+<form id="newQuery_form">
+  <div class="form-group" id="new_chat_message_id" style="display :none">
+       <div class="form-row">
+         <!-- Todo JavaScript: when selections are made, keep them chosen (otherwise cannot post query) -->
+            <label class="mr-sm-2 sr-only" for="inlineFormExSelect">Exeference</label>
+          <select name="exercise" class="custom-select col-md-3 mb-3 mx-auto" id="inlineFormExSelect">
+            <option selected value="">Exercise (None)</option>
+            <option value="1">Exercise 1</option>
+            <option value="2">Exercise 2</option>
+            <option value="3">Exercise 3</option>
+          </select>
+          <label class="mr-sm-2 sr-only" for="inlineFormQuestionSelect">QuestionSelect</label>
+          <select name="question"class="custom-select col-md-3 mb-3 mx-auto" id="inlineFormQuestionSelect">
+            <option selected value="">Question (None)</option>
+            <option value="1">Question 1</option>
+            <option value="2">Question 2</option>
+            <option value="3">Question 3</option>
+          </select>
+          <label class="mr-sm-2 sr-only" for="inlineFormSubSelect">SubSelect</label>
+          <select name="sub" class="custom-select col-md-3 mb-3 mx-auto" id="inlineFormSubSelect">
+            <option selected>Sub-Q (None)</option>
+            <option value="1">Sub-Q 1</option>
+            <option value="2">Sub-Q 2</option>
+            <option value="3">Sub-Q 3</option>
+          </select>
+        <button type="button" class="btn btn-light" id="exit" onclick="closeNewQuery();clearNewQueryTextfield()"><svg class="bi bi-x" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"/>
+  <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"/>
+</svg></button>
+    </div>      
+    <div class="form-group">
+      <textarea name="fname" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="What do you want to know?" style="resize: none;"></textarea>
+    </div>
+    <div class="foot-section">    
+      <a id="drive" href="https://drive.google.com/drive/u/0/my-drive" target="_blank" title="Upload from Google Drive"><img src="https://img.icons8.com/fluent/30/000000/google-drive.png"/></a>
+      <input type="file" id="myFile" name="filename" action="/action_page.php">
+      <button type="button" class="btn btn-light" id="post" onclick="validateSelections(), closeNewQuery(), loadInbox(cur_ex_filtered, cur_q_filtered)">Post</button>    
+    </div>
+  </form>
+<div id="snackbar">Your query has been posted ✔️</div> 
+<!-- <div id="badSnackbar">There seems to be a problem ❌</div>  -->

@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Askademy Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"  />
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script> 
+  
+	<!-- js files-->
+  <!-- <script src="js/auth.js"></script> -->
+  <script src="js/handleFirestore.js"></script>
+</head>
+<body style="background-color:#33aae2;text-align:center;margin-top:13%;font:24px Calibri;">
+  <div id="login_div" class="main-div">
+    <h3><img src="assets/askademy.png"></h3>
+    <input type="email" placeholder="Email" id="email_field" />
+    <input type="password" placeholder="Password" id="password_field" />
+    <button onclick="login()" style="border:none;border-radius:3px;padding:4px 6px;"><a href="#" style="text-decoration: none;color:black;"><strong>Login</strong></a></button>
+    <h6><a href="createAccount.html" style="text-decoration: none;color:black;">Create an Account</a></h6>
+  </div>
+</body>
+</html>

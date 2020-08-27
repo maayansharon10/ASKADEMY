@@ -1,0 +1,12 @@
+starting:
+  update in each page your working on: CURRENTLY WORKING ON THIS PAGE
+
+when done:
+  update in each page : last modified by: name at : TIME 
+  erase CURRENTLY WORKING ON THIS PAGE.
+  update info: 
+    currently works: 
+    main problems/todo :
+    other notes
+  create backup: export WebApps and paste with format name.
+  
