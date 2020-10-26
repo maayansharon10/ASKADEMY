@@ -1,0 +1,13 @@
+open app 
+1( clicking on + -> writing query-> click post -> adding to list
+
+
+2) filter :
+clicking on ALLEX dropdown and picking EX2 -> inboxchat changes to inboxChatEx2
+3)clicking on Maayan -> chat on left is open - v
+
+clicking on Q 2 -> inboxChatEx2 changes to inboxChatEx2Q2.
+clicking on EX dropdown picking ALL -> inboxChatEx2Q2 changes to inboxChat
+2) Adding a question :
+clicking on plus sign -> addNewQuery appear -> fill in and click "ask" -> 
+inbox chat changes to inboxChaNewQ && msgHistory changes to msgHistoryNewQ
