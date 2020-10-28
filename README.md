@@ -13,7 +13,11 @@ This project was part of 47716 WEB APPLICATION DEVELOPMENT course, Hebrew Univer
 During the semester we delveloped this tool, a Q&A platrom to enable students to work and learn together in a more efficient and organized way.
 Our final Grade was 99.
 
+
 LINK TO OUR FINAL PRESENTATION - 
+https://youtu.be/JBIVn2ugNww 
+
+LINK TO OUR PREZY PRESENTATION- 
 https://prezi.com/p/vpj4ktrhomtw/?present=1
 
 LINK TO OUR FINAL PROJECT PAPER- 
