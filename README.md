@@ -3,10 +3,10 @@
 Web App final project
 
 This project is the joint work of -
-Maayan Sharon
-Chen Rasooly
-Noa Levitzky
-Simon Malaku
+Maayan Sharon,
+Chen Rasooly,
+Noa Levitzky,
+Simon Malaku,
 Eldad Wang
 
 This project was part of 47716 WEB APPLICATION DEVELOPMENT course, Hebrew University of Jerusalem, spring 2020.
