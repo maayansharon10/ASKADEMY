@@ -3,11 +3,11 @@
 Web App final project
 
 This project is the joint work of -
-Maayan Sharon,
-Chen Rasooly,
-Noa Levitzky,
-Simon Malaku,
-Eldad Wang
+Maayan Sharon (maayansharon10) ,
+Chen Rasooly (ChenR25),
+Noa Levitzky (noalevitzky) ,
+Simon Malaku (simon-malaku),
+Eldad Wang (eldadwang95)
 
 This project was part of 47716 WEB APPLICATION DEVELOPMENT course, Hebrew University of Jerusalem, spring 2020.
 During the semester we delveloped this tool, a Q&A platrom to enable students to work and learn together in a more efficient and organized way.
